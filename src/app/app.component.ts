@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'k3s-dashboard';
+  shouldIncrease = false;
+  increase(){
+      this.shouldIncrease = true;
+      let counter = 0;
+      while(this.shouldIncrease) {
+        counter = counter * counter + 2500;
+      }
+  }
+
+  stop(){
+    this.shouldIncrease = false;
+  }
 }
