@@ -1,4 +1,4 @@
-import { animate, style, transition, trigger } from '@angular/animations';
+import { animate, state, style, transition, trigger } from '@angular/animations';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
@@ -10,25 +10,21 @@ import { interval } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
-    trigger(
-      'inOutAnimation', 
-      [
-        transition(
-          ':enter', 
-          [
-            transition(':enter', [
-              animate(600, style({opacity: 1}))
-            ]),
-          ]
-        ),
-        transition(
-          ':leave', 
-          [
-            animate(600, style({opacity: 0}))
-          ]
-        )
-      ]
-    )
+    trigger('simpleFadeAnimation', [
+
+      // the "in" style determines the "resting" state of the element when it is visible.
+      state('in', style({opacity: 1})),
+
+      // fade in when created. this could also be written as transition('void => *')
+      transition(':enter', [
+        style({opacity: 0}),
+        animate(600 )
+      ]),
+
+      // fade out when destroyed. this could also be written as transition('void => *')
+      transition(':leave',
+        animate(600, style({opacity: 0})))
+    ])
   ]
 })
 export class AppComponent {
@@ -41,13 +37,13 @@ export class AppComponent {
 
   createLoad() {
     this.clicked = true;
-    for (let i = 0; i < 50; i++) {
-      this.http.get('http://localhost:30081/test').subscribe(result => {
-        if (i == 49) {
+    for (let i = 0; i < 90; i++) {
+      this.http.get<any>('http://localhost:30081/start').subscribe(result => {
+        if (i == 89) {
           this.clicked = false;
         }
       }, error => {
-        if (i == 49) {
+        if (i == 89) {
           this.clicked = false;
         }
       });

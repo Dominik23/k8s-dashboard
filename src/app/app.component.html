@@ -60,27 +60,33 @@
 
 
 </div>
-<div [@inOutAnimation] class="planet1" *ngIf="pods.length>0">
+<div [@simpleFadeAnimation]="pods.length>0" class="planet1" *ngIf="pods.length>0">
     <img src="../assets/jupiter-planet-svgrepo-com.svg">
 </div>
 
-<div [@inOutAnimation] class="planet2" *ngIf="pods.length>1">
+<div [@simpleFadeAnimation]="pods.length>1" class="planet2" *ngIf="pods.length>1">
     <img src="../assets/jupiter-planet-svgrepo-com.svg">
 </div>
 
-<div [@inOutAnimation] class="planet3" *ngIf="pods.length>2">
+<div [@simpleFadeAnimation]="pods.length>2" class="planet3" *ngIf="pods.length>2">
     <img src="../assets/jupiter-planet-svgrepo-com.svg">
 </div>
 
-<div [@inOutAnimation] class="planet4" *ngIf="pods.length>3">
+<div [@simpleFadeAnimation]="pods.length>3" class="planet4" *ngIf="pods.length>3">
     <img src="../assets/jupiter-planet-svgrepo-com.svg">
 </div>
 
 
-<div [@inOutAnimation] class="planet5 " *ngIf="pods.length>4">
+<div [@simpleFadeAnimation]="pods.length>4" class="planet5 " *ngIf="pods.length>4">
     <img src="../assets/jupiter-planet-svgrepo-com.svg">
 </div>
 
-<div [@inOutAnimation] class="planet6" *ngIf="pods.length>5">
+<div [@simpleFadeAnimation]="pods.length>5" class="planet6" *ngIf="pods.length>5">
     <img src="../assets/jupiter-planet-svgrepo-com.svg">
+</div>
+<div class="window pods">
+    <div class="terminal">
+        <p class="command">kubectl get pods</p>
+        <div *ngFor="let po of pods">{{po['metadata']['name']}}</div>
+    </div>
 </div>
