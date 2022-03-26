@@ -1,0 +1,225 @@
+[2022-03-26 20:28:42Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-03-26 20:28:42Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:42Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:42Z INFO HostContext] Well known config file 'Credentials': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials'
+[2022-03-26 20:28:42Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:42Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:42Z INFO HostContext] Well known config file 'Runner': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.runner'
+[2022-03-26 20:28:42Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2022-03-26 20:28:42Z INFO Listener] RuntimeInformation: Darwin 21.3.0 Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T8101.
+[2022-03-26 20:28:43Z INFO Listener] Version: 2.288.1
+[2022-03-26 20:28:43Z INFO Listener] Commit: e95a2b840b74568ec30c993462165ece91040f8e
+[2022-03-26 20:28:43Z INFO Listener] Culture: 
+[2022-03-26 20:28:43Z INFO Listener] UI Culture: 
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:43Z INFO Listener] Validating directory permissions for: '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:43Z INFO CommandLineParser] Parse
+[2022-03-26 20:28:43Z INFO CommandLineParser] Parsing 5 args
+[2022-03-26 20:28:43Z INFO CommandLineParser] parsing argument
+[2022-03-26 20:28:43Z INFO CommandLineParser] HasArgs: False
+[2022-03-26 20:28:43Z INFO CommandLineParser] Adding Command: configure
+[2022-03-26 20:28:43Z INFO CommandLineParser] parsing argument
+[2022-03-26 20:28:43Z INFO CommandLineParser] HasArgs: True
+[2022-03-26 20:28:43Z INFO CommandLineParser] arg: url
+[2022-03-26 20:28:43Z INFO CommandLineParser] parsing argument
+[2022-03-26 20:28:43Z INFO CommandLineParser] HasArgs: True
+[2022-03-26 20:28:43Z INFO CommandLineParser] Adding option 'url': 'https://github.com/Dominik23/k3s-dashboard'
+[2022-03-26 20:28:43Z INFO CommandLineParser] parsing argument
+[2022-03-26 20:28:43Z INFO CommandLineParser] HasArgs: True
+[2022-03-26 20:28:43Z INFO CommandLineParser] arg: token
+[2022-03-26 20:28:43Z INFO CommandLineParser] parsing argument
+[2022-03-26 20:28:43Z INFO CommandLineParser] HasArgs: True
+[2022-03-26 20:28:43Z INFO CommandLineParser] Adding option 'token': '***'
+[2022-03-26 20:28:43Z INFO Listener] Arguments parsed
+[2022-03-26 20:28:43Z INFO Runner] ExecuteCommand
+[2022-03-26 20:28:43Z INFO ConfigurationStore] currentAssemblyLocation: /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin/Runner.Listener.dll
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:43Z INFO ConfigurationStore] binPath: /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:43Z INFO ConfigurationStore] RootFolder: /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:43Z INFO HostContext] Well known config file 'Runner': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.runner'
+[2022-03-26 20:28:43Z INFO ConfigurationStore] ConfigFilePath: /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.runner
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:43Z INFO HostContext] Well known config file 'Credentials': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials'
+[2022-03-26 20:28:43Z INFO ConfigurationStore] CredFilePath: /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:43Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_migrated'
+[2022-03-26 20:28:43Z INFO ConfigurationStore] MigratedCredFilePath: /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_migrated
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:43Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:43Z INFO HostContext] Well known config file 'Service': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.service'
+[2022-03-26 20:28:43Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.service
+[2022-03-26 20:28:43Z INFO CommandSettings] Flag 'help': 'False'
+[2022-03-26 20:28:43Z INFO CommandSettings] Flag 'version': 'False'
+[2022-03-26 20:28:43Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-03-26 20:28:43Z INFO CommandSettings] Flag 'check': 'False'
+[2022-03-26 20:28:43Z INFO CommandSettings] Command 'configure': 'True'
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: 
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: |                                                                              |
+[2022-03-26 20:28:43Z INFO Terminal] WRITE: |                       
+[2022-03-26 20:28:43Z INFO Terminal] WRITE: Self-hosted runner registration
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE:                         |
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: |                                                                              |
+[2022-03-26 20:28:43Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2022-03-26 20:28:43Z INFO ConfigurationManager] ConfigureAsync
+[2022-03-26 20:28:43Z INFO ConfigurationStore] IsConfigured()
+[2022-03-26 20:28:43Z INFO ConfigurationStore] IsConfigured: False
+[2022-03-26 20:28:43Z INFO ConfigurationManager] Is configured: False
+[2022-03-26 20:28:43Z INFO CommandSettings] Arg 'url': 'https://github.com/Dominik23/k3s-dashboard'
+[2022-03-26 20:28:43Z INFO CommandSettings] Remove url from Arg dictionary.
+[2022-03-26 20:28:43Z INFO CommandSettings] Arg 'token': '***'
+[2022-03-26 20:28:43Z INFO CommandSettings] Remove token from Arg dictionary.
+[2022-03-26 20:28:45Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2022-03-26 20:28:45Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2022-03-26 20:28:45Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-03-26 20:28:45Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-26 20:28:45Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-03-26 20:28:45Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-26 20:28:45Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-03-26 20:28:45Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-26 20:28:46Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-26 20:28:46Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-26 20:28:46Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-26 20:28:46Z INFO Terminal] WRITE LINE: 
+[2022-03-26 20:28:46Z INFO ConfigurationManager] Test Connection complete.
+[2022-03-26 20:28:46Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:46Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:46Z INFO HostContext] Well known config file 'RSACredentials': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_rsaparams'
+[2022-03-26 20:28:46Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2022-03-26 20:28:47Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-26 20:28:47Z INFO RSAFileKeyManager] Which: 'chmod'
+[2022-03-26 20:28:47Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2022-03-26 20:28:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:28:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper] Starting process:
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_rsaparams'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   Working directory: '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper] Process started with process id 60958, waiting for process exit.
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-26 20:28:47Z INFO ProcessInvokerWrapper] Finished process 60958 with exit code 0, and elapsed time 00:00:00.1027037.
+[2022-03-26 20:28:47Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-26 20:28:47Z INFO CommandSettings] Arg 'runnergroup': ''
+[2022-03-26 20:28:47Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-03-26 20:28:47Z INFO PromptManager] ReadValue
+[2022-03-26 20:28:47Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2022-03-26 20:28:47Z INFO Terminal] WRITE: [press Enter for Default] 
+[2022-03-26 20:28:47Z INFO Terminal] READ LINE
+[2022-03-26 20:28:50Z INFO Terminal] Read value: ''
+[2022-03-26 20:28:50Z INFO PromptManager] Falling back to the default: 'Default'
+[2022-03-26 20:28:50Z INFO Terminal] WRITE LINE: 
+[2022-03-26 20:28:50Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2022-03-26 20:28:50Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2022-03-26 20:28:50Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2022-03-26 20:28:50Z INFO CommandSettings] Arg 'name': ''
+[2022-03-26 20:28:50Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-03-26 20:28:50Z INFO PromptManager] ReadValue
+[2022-03-26 20:28:50Z INFO Terminal] WRITE: Enter the name of runner: 
+[2022-03-26 20:28:50Z INFO Terminal] WRITE: [press Enter for FVFG136PQ05P] 
+[2022-03-26 20:28:50Z INFO Terminal] READ LINE
+[2022-03-26 20:28:54Z INFO Terminal] Read value: 'dashboard-runner'
+[2022-03-26 20:28:54Z INFO Terminal] WRITE LINE: 
+[2022-03-26 20:28:54Z INFO CommandSettings] Arg 'labels': ''
+[2022-03-26 20:28:54Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-03-26 20:28:54Z INFO PromptManager] ReadValue
+[2022-03-26 20:28:54Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'macOS', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2022-03-26 20:28:54Z INFO Terminal] WRITE: [press Enter to skip] 
+[2022-03-26 20:28:54Z INFO Terminal] READ LINE
+[2022-03-26 20:28:55Z INFO Terminal] Read value: ''
+[2022-03-26 20:28:55Z INFO Terminal] WRITE LINE: 
+[2022-03-26 20:28:56Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2022-03-26 20:28:56Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2022-03-26 20:28:56Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2022-03-26 20:28:56Z INFO ConfigurationStore] Saving OAuth credential @ /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials
+[2022-03-26 20:28:56Z INFO ConfigurationStore] Credentials Saved.
+[2022-03-26 20:28:56Z INFO ConfigurationStore] HasCredentials()
+[2022-03-26 20:28:56Z INFO ConfigurationStore] stored True
+[2022-03-26 20:28:56Z INFO CredentialManager] GetCredentialProvider
+[2022-03-26 20:28:56Z INFO CredentialManager] Creating type OAuth
+[2022-03-26 20:28:56Z INFO CredentialManager] Creating credential type: OAuth
+[2022-03-26 20:28:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-26 20:28:56Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-03-26 20:28:56Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-26 20:28:56Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-03-26 20:28:56Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-26 20:28:56Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-03-26 20:28:56Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-26 20:28:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-26 20:28:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-26 20:28:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-26 20:28:57Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 9ca15eee-f78e-4c3b-b73b-521cd2adb26b
+ActivityId: 2ac5fc35-6e5d-44ca-bc20-779b83ddfe96
+X-TFS-Session: 9d596594-002b-43f0-9a85-49afa7561942
+X-VSS-E2EID: e720c9cc-5162-4290-bf47-98b1303a34f2
+X-VSS-SenderDeploymentId: 63be6134-28d1-8c82-e969-91f4e88fcdec
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: E5031593C03E413DA2CB9D0D7ADD9198 Ref B: FRAEDGE1408 Ref C: 2022-03-26T20:28:57Z
+Date: Sat, 26 Mar 2022 20:28:57 GMT
+
+[2022-03-26 20:28:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-26 20:28:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-26 20:28:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-03-26 20:28:58Z INFO CommandSettings] Arg 'work': ''
+[2022-03-26 20:28:58Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-03-26 20:28:58Z INFO PromptManager] ReadValue
+[2022-03-26 20:28:58Z INFO Terminal] WRITE: Enter name of work folder: 
+[2022-03-26 20:28:58Z INFO Terminal] WRITE: [press Enter for _work] 
+[2022-03-26 20:28:58Z INFO Terminal] READ LINE
+[2022-03-26 20:29:01Z INFO Terminal] Read value: ''
+[2022-03-26 20:29:01Z INFO PromptManager] Falling back to the default: '_work'
+[2022-03-26 20:29:01Z INFO ConfigurationStore] Saving runner settings.
+[2022-03-26 20:29:01Z INFO ConfigurationStore] Settings Saved.
+[2022-03-26 20:29:01Z INFO Terminal] WRITE LINE: 
+[2022-03-26 20:29:01Z INFO Terminal] WRITE LINE: 
+[2022-03-26 20:29:01Z INFO OsxServiceControlManager] Service name 'actions.runner.Dominik23-k3s-dashboard.dashboard-runner' display name 'GitHub Actions Runner (Dominik23-k3s-dashboard.dashboard-runner)' will be used for service configuration.
+[2022-03-26 20:29:01Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:29:01Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:29:01Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:29:01Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/bin'
+[2022-03-26 20:29:01Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:29:01Z INFO UnixUtil] Which: 'chmod'
+[2022-03-26 20:29:01Z INFO UnixUtil] Location: '/bin/chmod'
+[2022-03-26 20:29:01Z INFO UnixUtil] Running /bin/chmod 755 "/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/svc.sh"
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper] Starting process:
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard/svc.sh"'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   Working directory: '/Users/dhartl/Documents/Apps/uni/dashboard-api/actions-runner-dashboard'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper] Process started with process id 60990, waiting for process exit.
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-26 20:29:01Z INFO ProcessInvokerWrapper] Finished process 60990 with exit code 0, and elapsed time 00:00:00.0466885.
+[2022-03-26 20:29:01Z INFO Listener] Runner execution has finished with return code 0

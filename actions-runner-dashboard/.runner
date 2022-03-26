@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "dashboard-runner",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/iMb5RnHOauK1BllZdfPpBFWUC7vgLkXw13BXA1BwDQKNxjlE1E",
+  "gitHubUrl": "https://github.com/Dominik23/k3s-dashboard",
+  "workFolder": "_work"
+}
