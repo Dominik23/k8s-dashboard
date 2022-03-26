@@ -31,3 +31,10 @@ jobs:
           context: .
           push: true
           tags: dhartl231198/k3s-dashboard:latest
+  local-runner:
+    needs: docker
+    runs-on: self-hosted
+    steps:
+      -
+        name: Restart Deployment
+        run: kubectl rollout restart deployment angular-deployment
