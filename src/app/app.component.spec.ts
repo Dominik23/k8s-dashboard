@@ -23,7 +23,6 @@ describe('AppComponent', () => {
   it(`should have as title 'k3s-dashboard'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('k3s-dashboard');
   });
 
   it('should render title', () => {

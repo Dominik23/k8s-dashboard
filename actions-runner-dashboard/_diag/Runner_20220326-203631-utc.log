@@ -126,3 +126,38 @@ Date: Sat, 26 Mar 2022 20:36:36 GMT
 [2022-03-26 20:36:36Z INFO Terminal] WRITE LINE: Current runner version: '2.288.1'
 [2022-03-26 20:36:36Z INFO Terminal] WRITE LINE: 2022-03-26 20:36:36Z: Listening for Jobs
 [2022-03-26 20:36:36Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2022-03-26 20:41:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-26 20:41:11Z INFO MessageListener] Message '3' received from session 'b30f7462-c69c-47a6-825a-e039661c4776'.
+[2022-03-26 20:41:11Z INFO Runner] Received job message of length 19279 from service, with hash 'bf2b67f366230472faf9d0853e5bebed9d70461ce5b1d6537234221ea1f5e004'
+[2022-03-26 20:41:11Z INFO JobDispatcher] Job request 7 for plan 8d28fe2a-2ac0-4475-b6bd-e0453bdde70e job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea received.
+[2022-03-26 20:41:11Z INFO JobDispatcher] Pull OrchestrationId 8d28fe2a-2ac0-4475-b6bd-e0453bdde70e.local-runner.__default from JWT claims
+[2022-03-26 20:41:11Z INFO Terminal] WRITE LINE: 2022-03-26 20:41:11Z: Running job: local-runner
+[2022-03-26 20:41:11Z INFO JobDispatcher] Start renew job request 7 for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea.
+[2022-03-26 20:41:12Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 03/26/2022 20:51:12
+[2022-03-26 20:41:12Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper] Starting process:
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   File name: '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin/Runner.Worker'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 110 113'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   Working directory: '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-03-26 20:41:12Z INFO ProcessInvokerWrapper] Process started with process id 62961, waiting for process exit.
+[2022-03-26 20:41:12Z INFO JobDispatcher] Send job request message to worker for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea.
+[2022-03-26 20:41:12Z INFO ProcessChannel] Sending message of length 19279, with hash 'bf2b67f366230472faf9d0853e5bebed9d70461ce5b1d6537234221ea1f5e004'
+[2022-03-26 20:41:12Z INFO JobNotification] Entering JobStarted Notification
+[2022-03-26 20:41:12Z INFO JobNotification] Entering StartMonitor
+[2022-03-26 20:41:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-26 20:41:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-26 20:41:19Z INFO ProcessInvokerWrapper] Finished process 62961 with exit code 100, and elapsed time 00:00:06.4514917.
+[2022-03-26 20:41:19Z INFO JobDispatcher] Worker finished for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea. Code: 100
+[2022-03-26 20:41:19Z INFO JobDispatcher] finish job request for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea with result: Succeeded
+[2022-03-26 20:41:19Z INFO Terminal] WRITE LINE: 2022-03-26 20:41:19Z: Job local-runner completed with result: Succeeded
+[2022-03-26 20:41:19Z INFO JobDispatcher] Stop renew job request for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea.
+[2022-03-26 20:41:19Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 7.
+[2022-03-26 20:41:19Z INFO JobNotification] Entering JobCompleted Notification
+[2022-03-26 20:41:19Z INFO JobNotification] Entering EndMonitor
