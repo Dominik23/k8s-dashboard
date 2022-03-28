@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 `docker build -t k3s-dashboard .`
 `docker run -d -p 8080:80 k3s-dashboard`
+
+
+LOCAL RUNNER FOLDER:
+actions-runner-dashboard
