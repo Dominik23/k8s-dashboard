@@ -1,0 +1,1284 @@
+[2022-03-28 09:50:45Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-03-28 09:50:45Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:45Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:45Z INFO HostContext] Well known config file 'Credentials': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials'
+[2022-03-28 09:50:45Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:45Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:45Z INFO HostContext] Well known config file 'Runner': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.runner'
+[2022-03-28 09:50:45Z INFO Worker] Version: 2.288.1
+[2022-03-28 09:50:45Z INFO Worker] Commit: e95a2b840b74568ec30c993462165ece91040f8e
+[2022-03-28 09:50:45Z INFO Worker] Culture: en-GB
+[2022-03-28 09:50:45Z INFO Worker] UI Culture: en-GB
+[2022-03-28 09:50:45Z INFO Worker] Waiting to receive the job message from the channel.
+[2022-03-28 09:50:46Z INFO ProcessChannel] Receiving message of length 19261, with hash '7ff31c09b36d75645e878eca8757ad070ba5e2c60afc648de7bfcc50b1c2bda3'
+[2022-03-28 09:50:46Z INFO Worker] Message received.
+[2022-03-28 09:50:46Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/build_push.yaml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 39,
+        "col": 15,
+        "lit": "Restart Deployment"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 40,
+              "col": 14,
+              "lit": "kubectl rollout restart deployment angular-deployment"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "a21fd4f9-c4a4-5af8-3cb8-feae942a2ae1",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": "en-US"
+    },
+    "system.pipelineStartTime": {
+      "value": "2022-03-28 09:50:43+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "11"
+    },
+    "build.containerId": {
+      "value": "238762"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/build_push.yaml"
+    },
+    "system.phaseDisplayName": {
+      "value": "local-runner"
+    },
+    "system.phaseId": {
+      "value": "16538c0c-13ce-58d0-1f93-a9c050ebf580"
+    },
+    "system.phaseName": {
+      "value": "local-runner"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "local-runner.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "local-runner"
+    },
+    "system.jobDisplayName": {
+      "value": "local-runner"
+    },
+    "system.jobId": {
+      "value": "4d016ec8-1ead-5c38-aba9-ec5eff37b0ea"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Actions\":\"write\",\"Checks\":\"write\",\"Contents\":\"write\",\"Deployments\":\"write\",\"Discussions\":\"write\",\"Issues\":\"write\",\"Metadata\":\"read\",\"Packages\":\"write\",\"Pages\":\"write\",\"PullRequests\":\"write\",\"RepositoryProjects\":\"write\",\"SecurityEvents\":\"write\",\"Statuses\":\"write\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 25,
+    "planId": "72096230-720c-4452-89c7-872b255a693a",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/11",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "k3s-dashboard"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "Dominik23"
+    }
+  },
+  "timeline": {
+    "id": "72096230-720c-4452-89c7-872b255a693a",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "4d016ec8-1ead-5c38-aba9-ec5eff37b0ea",
+  "jobDisplayName": "local-runner",
+  "jobName": "__default",
+  "requestId": 21,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "570e5ac3-b65c-4905-bca6-04ba18271635",
+          "ServerName": "iMb5RnHOauK1BllZdfPpBFWUC7vgLkXw13BXA1BwDQKNxjlE1E",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/iMb5RnHOauK1BllZdfPpBFWUC7vgLkXw13BXA1BwDQKNxjlE1E/"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/iMb5RnHOauK1BllZdfPpBFWUC7vgLkXw13BXA1BwDQKNxjlE1E/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "bca87601ad480b6f31e900b0c2c980a0fe21cdf4"
+        },
+        {
+          "k": "repository",
+          "v": "Dominik23/k3s-dashboard"
+        },
+        {
+          "k": "repository_owner",
+          "v": "Dominik23"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/Dominik23/k3s-dashboard.git"
+        },
+        {
+          "k": "run_id",
+          "v": "2051484823"
+        },
+        {
+          "k": "run_number",
+          "v": "11"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "actor",
+          "v": "Dominik23"
+        },
+        {
+          "k": "workflow",
+          "v": "ci"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "bca87601ad480b6f31e900b0c2c980a0fe21cdf4"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "cacec80cdca42f1fe568976ed84c33c9f7d0f3f8"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "dominikhartl24@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "dhartl"
+                              },
+                              {
+                                "k": "username",
+                                "v": "Dominik23"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "dominikhartl24@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "dhartl"
+                              },
+                              {
+                                "k": "username",
+                                "v": "Dominik23"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "bca87601ad480b6f31e900b0c2c980a0fe21cdf4"
+                        },
+                        {
+                          "k": "message",
+                          "v": "added nice animation"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-03-28T11:48:37+02:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "920ae3d122879fd3df34d1fe3ed9c92b411ceb8c"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/Dominik23/k3s-dashboard/commit/bca87601ad480b6f31e900b0c2c980a0fe21cdf4"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/Dominik23/k3s-dashboard/compare/cacec80cdca4...bca87601ad48"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "dominikhartl24@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "dhartl"
+                          },
+                          {
+                            "k": "username",
+                            "v": "Dominik23"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "dominikhartl24@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "dhartl"
+                          },
+                          {
+                            "k": "username",
+                            "v": "Dominik23"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "bca87601ad480b6f31e900b0c2c980a0fe21cdf4"
+                    },
+                    {
+                      "k": "message",
+                      "v": "added nice animation"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2022-03-28T11:48:37+02:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "920ae3d122879fd3df34d1fe3ed9c92b411ceb8c"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/Dominik23/k3s-dashboard/commit/bca87601ad480b6f31e900b0c2c980a0fe21cdf4"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "dominikhartl24@gmail.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "Dominik23"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/Dominik23/k3s-dashboard.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1647868374.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "Dominik23/k3s-dashboard"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/Dominik23/k3s-dashboard.git"
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Dominik23/k3s-dashboard"
+                    },
+                    {
+                      "k": "id",
+                      "v": 472343684.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "k3s-dashboard"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOHCdkhA"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/29130303?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "dominikhartl24@gmail.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/Dominik23/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/Dominik23/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/Dominik23/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/Dominik23/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/Dominik23"
+                          },
+                          {
+                            "k": "id",
+                            "v": 29130303.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "Dominik23"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Dominik23"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjI5MTMwMzAz"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/Dominik23/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/Dominik23/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/Dominik23/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/Dominik23/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/Dominik23/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/Dominik23"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1648460919.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 183136.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:Dominik23/k3s-dashboard.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/Dominik23/k3s-dashboard"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/Dominik23/k3s-dashboard/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2022-03-26T20:39:19Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/Dominik23/k3s-dashboard"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/29130303?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/Dominik23/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/Dominik23/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/Dominik23/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/Dominik23/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Dominik23"
+                    },
+                    {
+                      "k": "id",
+                      "v": 29130303.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "Dominik23"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjI5MTMwMzAz"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/Dominik23/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/Dominik23/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/Dominik23/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/Dominik23/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/Dominik23/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/Dominik23"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        }
+      ]
+    },
+    "needs": {
+      "t": 2,
+      "d": [
+        {
+          "k": "docker",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "result",
+                "v": "success"
+              },
+              {
+                "k": "outputs",
+                "v": {
+                  "t": 2
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "inputs": null,
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2022-03-28 09:50:46Z INFO JobRunner] Job ID 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea
+[2022-03-28 09:50:46Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/iMb5RnHOauK1BllZdfPpBFWUC7vgLkXw13BXA1BwDQKNxjlE1E/
+[2022-03-28 09:50:46Z INFO ConfigurationStore] currentAssemblyLocation: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin/Runner.Worker.dll
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:46Z INFO ConfigurationStore] binPath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:46Z INFO ConfigurationStore] RootFolder: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:46Z INFO HostContext] Well known config file 'Runner': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.runner'
+[2022-03-28 09:50:46Z INFO ConfigurationStore] ConfigFilePath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.runner
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:46Z INFO HostContext] Well known config file 'Credentials': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials'
+[2022-03-28 09:50:46Z INFO ConfigurationStore] CredFilePath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:46Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_migrated'
+[2022-03-28 09:50:46Z INFO ConfigurationStore] MigratedCredFilePath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_migrated
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:46Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:46Z INFO HostContext] Well known config file 'Service': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.service'
+[2022-03-28 09:50:46Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.service
+[2022-03-28 09:50:46Z INFO ConfigurationStore] Read setting file: 296 chars
+[2022-03-28 09:50:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-28 09:50:46Z INFO Worker] Listening for cancel message from the channel.
+[2022-03-28 09:50:46Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2022-03-28 09:50:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-28 09:50:47Z INFO JobServerQueue] Start process web console line queue.
+[2022-03-28 09:50:47Z INFO JobServerQueue] Start process file upload queue.
+[2022-03-28 09:50:47Z INFO JobServerQueue] Start process timeline update queue.
+[2022-03-28 09:50:47Z INFO ExecutionContext] Initialize GitHub context
+[2022-03-28 09:50:47Z INFO ExecutionContext] Initialize Env context
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Diag': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag'
+[2022-03-28 09:50:47Z INFO JobRunner] Starting the job execution context.
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO JobRunner] Validating directory permissions for: '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Tools': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_tool'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Temp': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_temp'
+[2022-03-28 09:50:47Z INFO JobRunner] Getting job extension.
+[2022-03-28 09:50:47Z INFO JobRunner] Initialize job. Getting all job steps.
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Diag': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known config file 'Credentials': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known config file 'SetupInfo': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.setup_info'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO PipelineDirectoryManager] Loading tracking config if exists: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_PipelineMapping/Dominik23/k3s-dashboard/PipelineFolder.json
+[2022-03-28 09:50:47Z INFO PipelineDirectoryManager] Updating job run properties.
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO JobExtension] Downloading actions
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Actions': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_actions'
+[2022-03-28 09:50:47Z INFO JobExtension] Adding .
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Diag': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag'
+[2022-03-28 09:50:47Z INFO JobExtension] Total accessible running process: 232.
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "c1c4cb0f-d1e5-4b79-8af8-d2c20783095a",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1
+}.
+[2022-03-28 09:50:47Z INFO JobRunner] Total job steps: 1.
+[2022-03-28 09:50:47Z INFO JobRunner] Run all job steps.
+[2022-03-28 09:50:47Z INFO StepsRunner] Processing step: DisplayName='Restart Deployment'
+[2022-03-28 09:50:47Z INFO StepsRunner] Evaluating: success()
+[2022-03-28 09:50:47Z INFO StepsRunner] Result: true
+[2022-03-28 09:50:47Z INFO StepsRunner] Starting the step.
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Temp': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_temp'
+[2022-03-28 09:50:47Z INFO ActionRunner] Write event payload to /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_temp/_github_workflow/event.json
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:47Z INFO HostContext] Well known directory 'Temp': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_temp'
+[2022-03-28 09:50:47Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2022-03-28 09:50:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2022-03-28 09:50:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2022-03-28 09:50:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command set-env
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command set-output
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command save-state
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command add-path
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command warning
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command error
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command notice
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command debug
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command group
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2022-03-28 09:50:48Z INFO ActionCommandManager] Register action command extension for command echo
+[2022-03-28 09:50:48Z INFO ScriptHandler] Which: 'bash'
+[2022-03-28 09:50:48Z INFO ScriptHandler] Location: '/bin/bash'
+[2022-03-28 09:50:48Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:48Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:48Z INFO HostContext] Well known directory 'Work': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work'
+[2022-03-28 09:50:48Z INFO HostContext] Well known directory 'Temp': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_temp'
+[2022-03-28 09:50:48Z INFO ScriptHandler] Which: 'bash'
+[2022-03-28 09:50:48Z INFO ScriptHandler] Location: '/bin/bash'
+[2022-03-28 09:50:48Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c1c4cb0f-d1e5-4b79-8af8-d2c20783095a', success rate: 1/1.
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper] Starting process:
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   File name: '/bin/bash'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   Arguments: '-e /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_temp/f5fd6164-bcf5-4b77-baf9-2e331d7e8012.sh'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   Working directory: '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/k3s-dashboard/k3s-dashboard'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper] Process started with process id 93265, waiting for process exit.
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-28 09:50:48Z INFO ProcessInvokerWrapper] Finished process 93265 with exit code 0, and elapsed time 00:00:00.1125750.
+[2022-03-28 09:50:48Z INFO CreateStepSummaryCommand] Step Summary is disabled; skipping attachment upload
+[2022-03-28 09:50:48Z INFO StepsRunner] Step result: 
+[2022-03-28 09:50:48Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "sh",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "a21fd4f9-c4a4-5af8-3cb8-feae942a2ae1",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1
+}.
+[2022-03-28 09:50:48Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2022-03-28 09:50:48Z INFO StepsRunner] Current state: job state = ''
+[2022-03-28 09:50:48Z INFO JobRunner] Finalize job.
+[2022-03-28 09:50:48Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:48Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:48Z INFO HostContext] Well known directory 'Diag': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag'
+[2022-03-28 09:50:48Z INFO JobExtension] Initialize Env context
+[2022-03-28 09:50:48Z INFO JobExtension] Initialize steps context
+[2022-03-28 09:50:48Z INFO JobExtension] Total accessible running process: 232.
+[2022-03-28 09:50:48Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_joh",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "ccfa1d83-4030-4aaa-9453-735cfb3d6324",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1
+}.
+[2022-03-28 09:50:48Z INFO JobRunner] Job result after all job steps finish: Succeeded
+[2022-03-28 09:50:48Z INFO JobRunner] Completing the job execution context.
+[2022-03-28 09:50:48Z INFO JobRunner] Shutting down the job server queue.
+[2022-03-28 09:50:48Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2022-03-28 09:50:48Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2022-03-28 09:50:48Z INFO JobServerQueue] All queue process task stopped.
+[2022-03-28 09:50:49Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a21fd4f9-c4a4-5af8-3cb8-feae942a2ae1', success rate: 1/1.
+[2022-03-28 09:50:49Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'ccfa1d83-4030-4aaa-9453-735cfb3d6324', success rate: 1/1.
+[2022-03-28 09:50:49Z INFO JobServerQueue] Web console line queue drained.
+[2022-03-28 09:50:49Z INFO JobServerQueue] Uploading 4 files in one shot.
+[2022-03-28 09:50:50Z INFO JobServerQueue] Try to upload 4 log files or attachments, success rate: 4/4.
+[2022-03-28 09:50:50Z INFO JobServerQueue] File upload queue drained.
+[2022-03-28 09:50:50Z INFO JobServerQueue] Timeline update queue drained.
+[2022-03-28 09:50:50Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2022-03-28 09:50:50Z INFO TempDirectoryManager] Cleaning runner temp folder: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_work/_temp
+[2022-03-28 09:50:50Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 09:50:50Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 09:50:50Z INFO HostContext] Well known directory 'Diag': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag'
+[2022-03-28 09:50:50Z INFO HostContext] Well known config file 'Telemetry': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag/.telemetry'
+[2022-03-28 09:50:50Z INFO JobRunner] Raising job completed event
+[2022-03-28 09:50:51Z INFO Worker] Job completed.

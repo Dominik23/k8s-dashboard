@@ -1,0 +1,129 @@
+[2022-03-28 14:01:14Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-03-28 14:01:14Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:14Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:14Z INFO HostContext] Well known config file 'Credentials': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO HostContext] Well known config file 'Runner': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.runner'
+[2022-03-28 14:01:15Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2022-03-28 14:01:15Z INFO Listener] RuntimeInformation: Darwin 21.3.0 Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T8101.
+[2022-03-28 14:01:15Z INFO Listener] Version: 2.288.1
+[2022-03-28 14:01:15Z INFO Listener] Commit: e95a2b840b74568ec30c993462165ece91040f8e
+[2022-03-28 14:01:15Z INFO Listener] Culture: en-GB
+[2022-03-28 14:01:15Z INFO Listener] UI Culture: en-GB
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO Listener] Validating directory permissions for: '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO CommandLineParser] Parse
+[2022-03-28 14:01:15Z INFO CommandLineParser] Parsing 1 args
+[2022-03-28 14:01:15Z INFO CommandLineParser] parsing argument
+[2022-03-28 14:01:15Z INFO CommandLineParser] HasArgs: False
+[2022-03-28 14:01:15Z INFO CommandLineParser] Adding Command: run
+[2022-03-28 14:01:15Z INFO Listener] Arguments parsed
+[2022-03-28 14:01:15Z INFO Runner] ExecuteCommand
+[2022-03-28 14:01:15Z INFO ConfigurationStore] currentAssemblyLocation: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin/Runner.Listener.dll
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO ConfigurationStore] binPath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO ConfigurationStore] RootFolder: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO HostContext] Well known config file 'Runner': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.runner'
+[2022-03-28 14:01:15Z INFO ConfigurationStore] ConfigFilePath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.runner
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO HostContext] Well known config file 'Credentials': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials'
+[2022-03-28 14:01:15Z INFO ConfigurationStore] CredFilePath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_migrated'
+[2022-03-28 14:01:15Z INFO ConfigurationStore] MigratedCredFilePath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_migrated
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO HostContext] Well known config file 'Service': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.service'
+[2022-03-28 14:01:15Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.service
+[2022-03-28 14:01:15Z INFO CommandSettings] Flag 'help': 'False'
+[2022-03-28 14:01:15Z INFO CommandSettings] Flag 'version': 'False'
+[2022-03-28 14:01:15Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-03-28 14:01:15Z INFO CommandSettings] Flag 'check': 'False'
+[2022-03-28 14:01:15Z INFO CommandSettings] Command 'configure': 'False'
+[2022-03-28 14:01:15Z INFO CommandSettings] Command 'remove': 'False'
+[2022-03-28 14:01:15Z INFO CommandSettings] Command 'warmup': 'False'
+[2022-03-28 14:01:15Z INFO ConfigurationManager] LoadSettings
+[2022-03-28 14:01:15Z INFO ConfigurationStore] IsConfigured()
+[2022-03-28 14:01:15Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-28 14:01:15Z INFO ConfigurationManager] Is configured: True
+[2022-03-28 14:01:15Z INFO ConfigurationStore] Read setting file: 296 chars
+[2022-03-28 14:01:15Z INFO ConfigurationManager] Settings Loaded
+[2022-03-28 14:01:15Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-03-28 14:01:15Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-03-28 14:01:15Z INFO CommandSettings] Command 'run': 'True'
+[2022-03-28 14:01:15Z INFO ConfigurationStore] IsConfigured()
+[2022-03-28 14:01:15Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-28 14:01:15Z INFO ConfigurationManager] Is configured: True
+[2022-03-28 14:01:15Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2022-03-28 14:01:15Z INFO Runner] Set runner startup type - Manual
+[2022-03-28 14:01:15Z INFO CommandSettings] Flag 'once': 'False'
+[2022-03-28 14:01:15Z INFO CommandSettings] Flag 'once': 'False'
+[2022-03-28 14:01:15Z INFO Runner] RunAsync
+[2022-03-28 14:01:15Z INFO ConfigurationManager] LoadSettings
+[2022-03-28 14:01:15Z INFO ConfigurationStore] IsConfigured()
+[2022-03-28 14:01:15Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-28 14:01:15Z INFO ConfigurationManager] Is configured: True
+[2022-03-28 14:01:15Z INFO ConfigurationManager] Settings Loaded
+[2022-03-28 14:01:15Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "dashboard-runner",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/iMb5RnHOauK1BllZdfPpBFWUC7vgLkXw13BXA1BwDQKNxjlE1E",
+  "GitHubUrl": "https://github.com/Dominik23/k3s-dashboard",
+  "WorkFolder": "_work"
+}
+[2022-03-28 14:01:15Z INFO MessageListener] Loading Credentials
+[2022-03-28 14:01:15Z INFO ConfigurationStore] HasCredentials()
+[2022-03-28 14:01:15Z INFO ConfigurationStore] stored True
+[2022-03-28 14:01:15Z INFO CredentialManager] GetCredentialProvider
+[2022-03-28 14:01:15Z INFO CredentialManager] Creating type OAuth
+[2022-03-28 14:01:15Z INFO CredentialManager] Creating credential type: OAuth
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 14:01:15Z INFO HostContext] Well known directory 'Root': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard'
+[2022-03-28 14:01:15Z INFO HostContext] Well known config file 'RSACredentials': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_rsaparams'
+[2022-03-28 14:01:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-28 14:01:15Z INFO MessageListener] Attempt to create session.
+[2022-03-28 14:01:15Z INFO MessageListener] Connecting to the Runner Server...
+[2022-03-28 14:01:15Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-03-28 14:01:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-28 14:01:16Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-03-28 14:01:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-28 14:01:16Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-03-28 14:01:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-28 14:01:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-28 14:01:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-28 14:01:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-28 14:01:17Z INFO MessageListener] VssConnection created
+[2022-03-28 14:01:17Z INFO Terminal] WRITE LINE: 
+[2022-03-28 14:01:17Z INFO Terminal] WRITE LINE: 
+[2022-03-28 14:01:17Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: ac8498e6-5a5f-4000-8e51-183394602c1c
+ActivityId: a4568634-c73c-42d9-91d0-1b08c03faa88
+X-TFS-Session: 9792b9ae-ee80-41ec-9604-96f90714b602
+X-VSS-E2EID: 30485a88-dbd4-43f9-a9de-e3ab7311587b
+X-VSS-SenderDeploymentId: 63be6134-28d1-8c82-e969-91f4e88fcdec
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 679B510BE1C14DB6BD27EC03EB71FB17 Ref B: DUS30EDGE0817 Ref C: 2022-03-28T14:01:17Z
+Date: Mon, 28 Mar 2022 14:01:17 GMT
+
+[2022-03-28 14:01:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-28 14:01:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-28 14:01:17Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-03-28 14:01:18Z INFO MessageListener] Session created.
+[2022-03-28 14:01:18Z INFO Terminal] WRITE LINE: Current runner version: '2.288.1'
+[2022-03-28 14:01:18Z INFO Terminal] WRITE LINE: 2022-03-28 14:01:18Z: Listening for Jobs
+[2022-03-28 14:01:18Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
