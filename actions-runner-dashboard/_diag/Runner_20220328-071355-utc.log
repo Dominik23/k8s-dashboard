@@ -249,3 +249,49 @@ Date: Mon, 28 Mar 2022 08:09:14 GMT
 
 [2022-03-28 08:09:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_rsaparams
 [2022-03-28 08:09:15Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-03-28 08:16:08Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/.credentials_rsaparams
+[2022-03-28 08:16:08Z INFO MessageListener] Message '7' received from session 'da07785a-265f-49d9-bb92-ee96b591f682'.
+[2022-03-28 08:16:08Z INFO Runner] Received job message of length 19245 from service, with hash 'b4d748735e8c56068c16c3148509afa1a4a5124cea982104df99d9aa8e7df372'
+[2022-03-28 08:16:08Z INFO JobDispatcher] Job request 17 for plan ddcce338-d7dd-4890-aeda-6e99e0393e8b job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea received.
+[2022-03-28 08:16:08Z INFO JobDispatcher] Pull OrchestrationId ddcce338-d7dd-4890-aeda-6e99e0393e8b.local-runner.__default from JWT claims
+[2022-03-28 08:16:08Z INFO JobDispatcher] Job request 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea processed succeed.
+[2022-03-28 08:16:08Z INFO Terminal] WRITE LINE: 2022-03-28 08:16:08Z: Running job: local-runner
+[2022-03-28 08:16:08Z INFO JobDispatcher] Start renew job request 17 for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea.
+[2022-03-28 08:16:08Z INFO JobDispatcher] Successfully renew job request 17, job is valid till 03/28/2022 08:26:08
+[2022-03-28 08:16:08Z INFO HostContext] Well known directory 'Bin': '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper] Starting process:
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   File name: '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin/Runner.Worker'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 110 113'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   Working directory: '/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-03-28 08:16:08Z INFO ProcessInvokerWrapper] Process started with process id 84879, waiting for process exit.
+[2022-03-28 08:16:08Z INFO JobDispatcher] Send job request message to worker for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea.
+[2022-03-28 08:16:08Z INFO ProcessChannel] Sending message of length 19245, with hash 'b4d748735e8c56068c16c3148509afa1a4a5124cea982104df99d9aa8e7df372'
+[2022-03-28 08:16:08Z INFO JobNotification] Entering JobStarted Notification
+[2022-03-28 08:16:08Z INFO JobNotification] Entering StartMonitor
+[2022-03-28 08:16:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-28 08:16:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-03-28 08:16:14Z INFO ProcessInvokerWrapper] Finished process 84879 with exit code 100, and elapsed time 00:00:05.5373702.
+[2022-03-28 08:16:14Z INFO JobDispatcher] Worker finished for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea. Code: 100
+[2022-03-28 08:16:14Z INFO JobDispatcher] finish job request for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea with result: Succeeded
+[2022-03-28 08:16:14Z INFO Terminal] WRITE LINE: 2022-03-28 08:16:14Z: Job local-runner completed with result: Succeeded
+[2022-03-28 08:16:14Z INFO JobDispatcher] Stop renew job request for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea.
+[2022-03-28 08:16:14Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 17.
+[2022-03-28 08:16:14Z INFO JobNotification] Entering JobCompleted Notification
+[2022-03-28 08:16:14Z INFO JobNotification] Entering EndMonitor
+[2022-03-28 08:22:02Z INFO Terminal] WRITE LINE: Exiting...
+[2022-03-28 08:22:02Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-03-28 08:22:02Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-03-28 08:22:02Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2022-03-28 08:22:02Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/iMb5RnHOauK1BllZdfPpBFWUC7vgLkXw13BXA1BwDQKNxjlE1E/_apis/distributedtask/pools/1/messages?sessionId=da07785a-265f-49d9-bb92-ee96b591f682&lastMessageId=7 has been cancelled.
+[2022-03-28 08:22:02Z INFO MessageListener] Get next message has been cancelled.
+[2022-03-28 08:22:02Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2022-03-28 08:22:02Z INFO JobDispatcher] Ensure WorkerDispather for job 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea run to finish, cancel any running job.
+[2022-03-28 08:22:02Z INFO JobDispatcher] Job request 4d016ec8-1ead-5c38-aba9-ec5eff37b0ea processed succeed.
+[2022-03-28 08:22:03Z INFO Listener] Runner execution been cancelled.

@@ -37,13 +37,13 @@ export class AppComponent {
 
   createLoad() {
     this.clicked = true;
-    for (let i = 0; i < 90; i++) {
+    for (let i = 0; i < 40; i++) {
       this.http.get<any>('http://localhost:30084/start').subscribe(result => {
-        if (i == 89) {
+        if (i == 39) {
           this.clicked = false;
         }
       }, error => {
-        if (i == 89) {
+        if (i == 39) {
           this.clicked = false;
         }
       });
