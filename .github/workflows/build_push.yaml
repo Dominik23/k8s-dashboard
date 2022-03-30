@@ -30,7 +30,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: dhartl231198/k3s-dashboard:latest
+          tags: dhartl231198/k8s-dashboard:latest
   local-runner:
     needs: docker
     runs-on: self-hosted

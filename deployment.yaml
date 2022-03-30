@@ -15,7 +15,7 @@ spec:
       containers:
   
       - name: angular
-        image: dhartl231198/k3s-dashboard
+        image: dhartl231198/k8s-dashboard
         resources:
           limits:
             memory: "128Mi"
