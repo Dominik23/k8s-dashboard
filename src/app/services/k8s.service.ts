@@ -16,7 +16,7 @@ export class K8sService {
 
   getPods() {
 
-    interval(2000).subscribe(x => {
+    interval(3000).subscribe(x => {
       this.http.get<any>('http://localhost:30081/pods').subscribe(pods => {
         console.log(pods);
 

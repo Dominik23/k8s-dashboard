@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "Dominik23/k8s-dashboard",
+  "pipelineDirectory": "k8s-dashboard",
+  "workspaceDirectory": "k8s-dashboard/k8s-dashboard",
+  "repositories": {
+    "Dominik23/k8s-dashboard": {
+      "repositoryPath": "k8s-dashboard/k8s-dashboard",
+      "lastRunOn": "04/12/2022 14:12:54 +02:00"
+    }
+  },
+  "lastRunOn": "04/12/2022 14:12:54 +02:00"
+}

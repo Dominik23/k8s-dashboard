@@ -10,12 +10,12 @@
 #  UPDATELOG = _diag/SelfUpdate-UTC.log
 #  RESTARTINTERACTIVERUNNER = 0/1
 
-runnerpid=30444
+runnerpid=11974
 runnerprocessname=Runner.Listener
 rootfolder="/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard"
-existrunnerversion=2.288.1
-downloadrunnerversion=2.289.1
-logfile="/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag/SelfUpdate-20220330-111533.log"
+existrunnerversion=2.289.1
+downloadrunnerversion=2.289.2
+logfile="/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag/SelfUpdate-20220412-120920.log"
 restartinteractiverunner=0
 
 telemetryfile="$rootfolder/_diag/.telemetry"
