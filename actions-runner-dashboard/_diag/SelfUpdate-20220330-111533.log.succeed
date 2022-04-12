@@ -1,0 +1,16 @@
+[2022-03-30 13:15:34-4N] --------whoami--------
+dhartl
+[2022-03-30 13:15:34-4N] --------whoami--------
+[2022-03-30 13:15:34-4N] Waiting for Runner.Listener (30444) to complete
+[2022-03-30 13:15:34-4N] Process 30444 finished running
+[2022-03-30 13:15:34-4N] Sleep 1 more second to make sure process exited
+[2022-03-30 13:15:35-4N] move /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin.2.288.1
+/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin -> /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/bin.2.288.1
+[2022-03-30 13:15:35-4N] move /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/externals /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/externals.2.288.1
+/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/externals -> /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/externals.2.288.1
+[2022-03-30 13:15:35-4N] Create junction bin folder
+[2022-03-30 13:15:35-4N] Create junction externals folder
+[2022-03-30 13:15:35-4N] Running as ephemeral using run.sh, no need to recreate node folder
+[2022-03-30 13:15:35-4N] Update succeed
+[2022-03-30 13:15:35-4N] Rename /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag/SelfUpdate-20220330-111533.log to be /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag/SelfUpdate-20220330-111533.log.succeed
+/Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag/SelfUpdate-20220330-111533.log -> /Users/dhartl/Documents/Apps/uni/k3s-dashboard/actions-runner-dashboard/_diag/SelfUpdate-20220330-111533.log.succeed

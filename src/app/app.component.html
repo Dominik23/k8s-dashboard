@@ -84,7 +84,7 @@
 <div [@simpleFadeAnimation]="pods.length>5" class="planet6 shake-slow" *ngIf="pods.length>5">
     <img src="../assets/jupiter-planet-svgrepo-com.svg">
 </div>
-<div [@simpleFadeAnimation]="pods.length>5" class="planet7 shake-slow"  *ngIf="pods.length>6">
+<div [@simpleFadeAnimation]="pods.length>5" class="planet7 shake-slow" *ngIf="pods.length>6">
     <img src="../assets/jupiter-planet-svgrepo-com.svg">
 </div>
 <div [@simpleFadeAnimation]="pods.length>5" class="planet8 shake-slow" *ngIf="pods.length>7">
@@ -101,4 +101,10 @@
         <p class="command">kubectl get pods</p>
         <div *ngFor="let po of pods">{{po['metadata']['name']}}</div>
     </div>
+
+
+
 </div>
+<button (click)="openBottomsheet()" mat-fab color="warn" aria-label="Example icon button with a home icon" style="position: absolute; bottom: 20%; right: 5%;">
+    <mat-icon>trending_up</mat-icon>
+  </button>
