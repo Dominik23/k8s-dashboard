@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+/actions-runner
 
 # Node
 /node_modules
