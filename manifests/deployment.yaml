@@ -37,3 +37,4 @@ spec:
    port: 80
    nodePort: 30086
  type: NodePort
+ 
