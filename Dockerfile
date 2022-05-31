@@ -10,4 +10,4 @@ RUN npm run build
 
 FROM nginx:latest 
 
-COPY --from=build /usr/local/app/dist/k3s-dashboard /usr/share/nginx/html
+COPY --from=build /usr/local/app/dist/k8s-dashboard /usr/share/nginx/html

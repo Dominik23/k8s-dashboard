@@ -37,5 +37,5 @@ jobs:
     steps:
       -
         name: Restart Deployment
-        run: kubectl rollout restart deployment angular-deployment
+        run: kubectl rollout restart deployment k8s-dashboard
         

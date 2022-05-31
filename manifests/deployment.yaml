@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: angular-deployment
+  name: k8s-dashboard
 spec:
   selector: 
     matchLabels:
-      app: angular
+      app: k8s-dashboard
   replicas: 1
   template:
     metadata:
       labels:
-        app: angular
+        app: k8s-dashboard
     spec: 
       containers:
   
-      - name: angular
+      - name: k8s-dashboard
         image: dhartl231198/k8s-dashboard
         resources:
           limits:
@@ -28,10 +28,10 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
- name: angular-service
+ name: k8s-dashboard
 spec:
  selector:
-   app: angular
+   app: k8s-dashboard
  ports:
  - protocol: TCP
    port: 80

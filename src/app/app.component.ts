@@ -47,7 +47,7 @@ export class AppComponent {
   createLoad() {
     this.clicked = true;
     for (let i = 0; i < 40; i++) {
-      this.http.get<any>('http://localhost:30084/start').subscribe(result => {
+      this.http.get<any>('http://localhost:30088/start').subscribe(result => {
         if (i == 39) {
           this.clicked = false;
         }
