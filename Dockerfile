@@ -11,3 +11,5 @@ RUN npm run build
 FROM nginx:latest 
 
 COPY --from=build /usr/local/app/dist/k8s-dashboard /usr/share/nginx/html
+
+EXPOSE 80
